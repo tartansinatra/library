@@ -48,9 +48,8 @@ class Library
   end
 
   def list_borrowed_books
-      @people.each do |name, person| 
+    @people.each do |name, person| 
        person.list_borrowed_books
-      puts
     end
   end
 

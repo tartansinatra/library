@@ -31,6 +31,7 @@ person_1 = Person.new({name: "Jane"})
 
 library.add_person(person_1)
 
+wilma = 
 library.add_person(Person.new(name: 'Fred'))
 library.add_person(Person.new(name: 'Wilma'))
 library.add_person(Person.new(name: 'Barney'))
@@ -73,10 +74,14 @@ puts "All people: \n #{library.list_people}"
 puts
 
 puts "Books on Loan: All books:\n"
-puts library.list_borrowed_books
+# binding.pry;""
+library.list_borrowed_books
+
+
+
 puts
 
-# binding.pry;""
+
 
 
 #TODO: List Overdue Books
